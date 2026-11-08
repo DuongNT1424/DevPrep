@@ -196,16 +196,16 @@ flowchart LR
 
 ## Team
 
-SEP490 capstone, FPT University.
+SEP490-34 capstone, FPT University Can Tho (May – Aug 2026). Supervisor: Cao Hong Nga.
 
-| Member (GitHub) | Area |
-|---|---|
-| DuyenTQ2003 | <!-- fill in from team assignment --> |
-| ho-thanh-duy | <!-- fill in from team assignment --> |
-| Duong Nguyen | <!-- fill in from team assignment --> |
-| HaoNam | <!-- fill in from team assignment --> |
-| Usopp204 | <!-- fill in from team assignment --> |
-| HuynhAnh181405 | <!-- fill in from team assignment --> |
+| Member (GitHub) | Name | Role | Area |
+|---|---|---|---|
+| [DuongNT1424](https://github.com/DuongNT1424) | Nguyen Thai Duong | **Team Leader** | PaymentAPI and VNPay integration, CV/JD parsing (fine-tuned Gemma-2-2B parser), CV–JD matching |
+| DuyenTQ2003 | Tran Quang Duyen | Member | ai-service and InterviewAPI: interview room, question planning, biometrics, credit charging, grading and reports |
+| HaoNam | Duong Hoang Hao Nam | Member | AuthAPI and UserAPI: register/login, Google/GitHub SSO, email OTP, profile; feedback moderation; credit ledger |
+| Usopp204 | Bui Vo Trung Tin | Member | Evaluation reports, session history, feedback, tech stacks, announcements, statistics |
+| HuynhAnh181405 | Nguyen Thi Huynh Anh | Member | Question bank, user, news and position management; credit history |
+| ho-thanh-duy | Ho Thanh Duy | Member, Tester | WebClient UI: home and auth pages, Admin/Manager list and detail screens; test documentation |
 
 ## Documentation
 
@@ -213,5 +213,6 @@ SEP490 capstone, FPT University.
 - [`db/seed/README.md`](db/seed/README.md): optional sample accounts and credit packages.
 - [`contracts/README.md`](contracts/README.md): shared contracts between services.
 - [`infra/docker-compose.yml`](infra/docker-compose.yml): full stack, with the port-lockdown rules in its header.
+- [**Full capstone documentation (Google Drive)**](https://drive.google.com/drive/folders/15hrceLl5mNxVFttG2PNog5Ik_GbVQR4P?usp=sharing): Reports 1–7 — Project Introduction, Project Management Plan, Software Requirement Specification, Software Design Document, Software Testing, Software User Guide and Final Project Report.
 
 There is no end-user manual in the repository.
